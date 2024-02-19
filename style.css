@@ -1,0 +1,373 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: #252525;
+}
+.header-con{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px;
+    background-color: #0f0f0f;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 3;
+}
+.logo{
+    padding: 0 150px;
+}
+.logo img{
+    width:  120px;
+    border-radius: 100px;
+    cursor: pointer;
+}
+.navig{
+   padding-right: 250px ;
+}
+.navig nav ul li{
+    list-style: none;
+    display: inline;
+    padding: 0 30px;
+}
+.navig nav ul li a{
+    text-decoration: none;
+    color: #95aa89;
+    font-size: 20px;
+    padding: 5px 0;
+    transition: transform 0.5s ease;
+    transition-property: color;
+}
+.navig nav ul li a:hover{
+        border-bottom: 2px solid #008631;
+       color: #008631;
+}
+.hero{
+    background-attachment:local;
+    background-image: url(download.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #cbdfd2;
+}
+.hero-txt #h1-1{
+   font-size: 50px;
+}
+.hero-txt h2{
+    font-size: 50px;
+    align-self: center;
+ }
+ .hero-txt h3{
+    font-size: 25px;
+ }
+.hero-btn button{
+     color: #cbdfd2;
+     padding: 10px 10px;
+     background-color:  #006625;
+     border: none;
+     border-radius: 4px;
+     cursor: pointer;
+}
+.hero-btn button:hover{
+        background-color: #065f27;
+}
+.why{
+    background-color: #0f0f0f;
+    color: white;
+}
+.why h1{
+    font-size: 30px;
+    text-align: center;
+    color: #008631;
+    padding: 40px;
+}
+.flexcon{
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10px;
+}
+.flexcon .flexitem h2{
+      padding: 10px 0;
+}
+.flexcon .flexitem{
+    padding: 10px 0;
+}
+.flexcon .flexitem p{
+    padding: 10px 0;
+}
+.flexcon .flexitem .fleximg{
+    padding: 10px 0;
+}
+.flexcon .flexitem button{
+    padding: 15px;
+    color: #cbdfd2;
+     padding: 15px 20px;
+     background-color:  #006625;
+     border: none;
+     border-radius: 4wpx;
+     cursor: pointer;
+}
+.flexcon .flexitem button:hover{
+    background-color: #065f27;
+}
+.WORKING{
+    background-color: #252525;
+    color: white;
+    padding-bottom: 50px;
+}
+.ytflex{
+    display: flex;
+    justify-content: space-around;
+}
+.WORKING h1{
+    font-size: 30px;
+    text-align: center;
+    color: #008631;
+    padding: 40px;
+} 
+.vid h2{
+    padding: 20px;
+    text-align: center;
+}
+.vid p{
+    text-align: center;
+    padding: 5px;
+}
+.cnct{
+    background-color: #0f0f0f;
+    padding-bottom: 50px;
+}
+.cnct h1{
+    font-size: 30px;
+    text-align: center;
+    color: #008631;
+    padding: 40px;
+}
+.cnct .lastcon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+.cnct .lastcon .sm {
+    text-align: center;
+}
+.cnct .lastcon .qua {
+    text-align: center;
+}
+.cnct .lastcon .sm h2{
+    padding: 15px;
+}
+.cnct .lastcon .sm p{
+    padding: 15px;
+}
+.cnct .lastcon .qua h2{
+    padding: 15px;
+}
+.cnct .lastcon .qua p{
+    padding: 15px;
+}
+.cnct button{
+    padding: 15px;
+    color: #cbdfd2;
+     padding: 15px 20px;
+     background-color:  #006625;
+     border: none;
+     border-radius: 4px;
+     cursor: pointer;
+}
+.cnct button:hover{
+    background-color: #065f27;
+}
+.cnctsm{
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+}
+.cnctsm .fb{
+    width: 20px;
+    height: 20px;
+    background-image: url(facebook.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.cnctsm .fb:hover{
+    background-image: url(facebook-color.png);
+}
+.cnctsm .in{
+    width: 20px;
+    height: 20px;
+    background-image: url(instagram.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.cnctsm .in:hover{
+    background-image: url(instagram-color.png);
+}
+footer{
+    padding-bottom: 30px;
+}
+.price{
+    padding-top: 120px;
+    margin: 0 20px;
+    background-color: #252525;
+    color: white;
+}
+.price h1{
+    text-align: center;
+    color: #008631;
+    font-size: 35px;
+    padding-bottom: 40px;
+}
+.price img{
+    float: right;
+}
+.price .txts{
+    padding: 50PX;
+}
+.price .txts h2{
+    padding: 30px;
+}
+.price .txts p{
+    text-align: left;
+}
+.p-hero{
+  background-color: #0f0f0f;
+}
+.p-hero .p-img-con{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding-top: 150px;
+    column-gap: 5px;
+    width: 100%;
+}
+.p-hero .p-img-con .p-img img{
+     width: 450px;
+     background-size: cover;
+}
+.appoint h1{
+    text-align: center;
+    color: #008631;
+    padding-top: 30px;
+    font-size: 35px;
+}
+.appoint h2{
+    text-align: center;
+    padding-top: 30px;
+}
+.appoint h2 a{
+    text-decoration: none;
+    color: #8ccca4;
+}
+.appoint h2 a:hover{
+    border-bottom: 3px solid #78b48e;
+}
+.all-ser-con{
+     display: flex;
+     justify-content: center;
+     flex-direction: row;
+     column-gap: 10px;
+     padding: 50px;
+     flex-wrap: wrap;
+     z-index: 2;
+}
+.all-ser-con .all-ser{
+    padding: 10px 10px 40px 10px; 
+    margin: 20px;
+    background-color: #e0e0e0;
+    text-align: left;
+    transition: transform 0.5s ease;
+}
+.all-ser-con .all-ser:hover {
+    box-shadow: 2px 2px 4px 2px #467256;
+    cursor: pointer;
+    transform: scale(1.05);
+}
+.all-ser-con .all-ser img{
+    padding: 10px;
+    cursor: pointer;
+    transition: transform 0.5s ease;
+}
+.all-ser-con .all-ser:hover img{
+    transform: scale(1.1);
+}
+.all-ser-con .all-ser h2{
+    font-size: 22px;
+    padding: 10px;
+    color: #006625;
+}
+.all-ser-con .all-ser p{
+    padding: 10px;
+
+}
+.all-ser-con .all-ser .appoint-btn{
+    text-align: center;
+    padding-top: 15px;
+}
+.all-ser-con .all-ser .appoint-btn button{
+    color: #cbdfd2;
+    padding: 15px 20px;
+    background-color:  #006625;
+    border: none;
+    border-radius: 1px;
+    cursor: pointer;
+}
+.all-ser-con .all-ser .appoint-btn button:hover{
+    background-color: #003a15;
+}
+.contact{
+    padding-top: 100px;
+    color: #ffff;
+}
+.contact h1{
+    text-align: center;
+    color: #008631;
+    font-size: 33px;
+}
+.contact .maincontact{
+    display: flex;
+    flex-direction: column;
+    padding-left: 100px;
+    text-align: left;
+}
+.contact.hrs{
+   display: block;
+}
+
+.contact .hrs button{
+    padding: 15px;
+    color: #cbdfd2;
+     padding: 15px 20px;
+     background-color:  #006625;
+     border: none;
+     border-radius: 4px;
+     cursor: pointer;
+}
+.contact .hrs button:hover{
+    background-color: #065f27;
+}
+.contact .map{
+    text-align: center;
+}
+.contact .map iframe{
+    width: 80%;
+    padding-top: 30px;
+    height: 500px;
+    border-color: 3px solid #0f0f0f;
+    position: relative;
+    top: 0px;
+    bottom: 70px;
+}
